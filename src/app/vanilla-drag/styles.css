@@ -1,0 +1,26 @@
+.SnappingExample {
+  width: 100%;
+  min-height: 500px;
+  border-radius: 4px;
+  border: 2px solid #0479cd;
+  position: relative;
+
+  .drag-handle {
+    background: #0aa65d;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    cursor: grab;
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+  }
+
+  .snappoint {
+    background: #cd0404;
+    border-radius: 4px;
+    position: absolute;
+    opacity: 0.5;
+  }
+}
